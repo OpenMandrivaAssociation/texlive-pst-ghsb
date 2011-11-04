@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-pst-ghsb
-Version:	20111102
+Version:	20111104
 Release:	1
 Summary:	TeXLive pst-ghsb package
 Group:		Publishing
@@ -48,6 +48,7 @@ TeXLive pst-ghsb package.
 %doc %{_texmfdistdir}/doc/generic/pst-ghsb/t-ghsb.tex
 %doc %{_texmfdistdir}/doc/generic/pst-ghsb/t2-ghsb.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-ghsb/t2-ghsb.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +59,5 @@ TeXLive pst-ghsb package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
