@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-pst-ghsb
 Version:	20111104
-Release:	4
+Release:	5
 Summary:	TeXLive pst-ghsb package
 Group:		Publishing
 URL:		http://tug.org/texlive
