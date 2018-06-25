@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-pst-ghsb
-Version:	20171115
+Version:	20180303
 Release:	1
 Summary:	TeXLive pst-ghsb package
 Group:		Publishing
